@@ -1,0 +1,31 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=2.0.0
+matplotlib>=3.4.3
+jupyter>=1.0.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+mechanicalsoup>=1.3.0
+requests>=2.31.0
+lxml>=4.9.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+
+# Code quality / formatting
+black>=22.0.0
+flake8>=5.0.0
+isort>=5.0.0
+
+# File handling
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0 
+
+# Utilities
+collections-extended>=1.0.0

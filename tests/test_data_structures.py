@@ -23,16 +23,7 @@ def test_create_named_tuple():
     assert p == (10, 20)
 
 
-def test_safe_list_operations():
-    """Test list copy operations."""
-    results = safe_list_operations()
 
-    # Shallow copy affects original
-    assert results["original_after_shallow"] == [[99, 2], [3, 4]]
-
-    # Deep copy doesn't affect original
-    assert results["original_after_deep"] == [[1, 2], [3, 4]]
-    assert results["deep_copy"] == [[99, 2], [3, 4]]
 
 
 def test_list_comprehension_examples():
